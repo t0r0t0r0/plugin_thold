@@ -67,7 +67,7 @@ if (sizeof($parms)) {
 		}
 
 		switch ($arg) {
-			case '-auto':
+			case '--auto-create':
 				thold_cli_autocreate_host ($value);
 				exit;
 			case '--debug':
